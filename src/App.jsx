@@ -10,7 +10,7 @@ import SinglePerson from "./components/SinglePerson";
 export default function App() {
   return (
     <Router>
-      <div className="container">
+      <>
         <Navbar />
         <Switch>
           <Route exact path="/films">
@@ -29,7 +29,7 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
-      </div>
+      </>
     </Router>
   );
 }

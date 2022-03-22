@@ -3,25 +3,26 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <Link class="nav-link active" to={"/"}>
+    <div className="col">
+    <nav className="bar">
+      <ul className="nav justify-content-center">
+        <li id="nav-item" class="nav-item mb-3">
+          <Link className="nav-link active" to={"/"}>
             Home
           </Link>
         </li>
-        <li class="nav-item">
+        <li id="nav-item"className="nav-item mb-3">
           <Link class="nav-link" to={"/films"}>
             View Films
           </Link>
         </li>
-        <li class="nav-item">
+        <li id="nav-item" className="nav-item mb-3">
           <Link class="nav-link" to={"/people"}>
             View People
           </Link>
         </li>
       </ul>
-    </nav>
+    </nav></div>
   );
 };
 

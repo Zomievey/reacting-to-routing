@@ -12,9 +12,9 @@ const SinglePerson = () => {
   }, [personid]);
 
   return (
-    <div className="col-12 mt-3" key={person.id}>
+    <div id="single-p"  key={person.id}>
       <div class="card">
-        <div class="card-body">
+        <div class="card-body card-size">
           <h5 class="card-title">{person.name}</h5>
           <h6 class="card-subtitle mb-2 text-muted">{person.gender}</h6>
           <h6 class="card-subtitle mb-2 text-muted">
@@ -23,7 +23,7 @@ const SinglePerson = () => {
           <h6 class="card-subtitle mb-2 text-muted">
             Eye Color: {person.eye_color}
           </h6>
-          <p class="card-text">{person.age}</p>
+          <p class="card-text">age: {person.age}</p>
         </div>
       </div>
     </div>

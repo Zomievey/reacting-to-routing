@@ -19,7 +19,7 @@ const People = () => {
                         <div class="card-body">
                             <h5 class="card-title">{person.name}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{person.gender}</h6>
-                            <p class="card-text">{person.age}</p>
+                            <p class="card-text">age: {person.age}</p>
                             <Link to={`/people/${person.id}`} class="card-link">See More</Link>
                         </div>
                     </div>

@@ -12,9 +12,9 @@ const Films = () => {
     }, []);
 
     return (
-        <div className="row">
+        <div className="row ">
             {films.map(film => (
-                <div className="col-6" key={film.id}>
+                <div className="col-6 mt-3" key={film.id}>
                     <div class="card">
                         <div class="card-body">
                             <img src={film.movie_banner} alt="poster from movie" class="card-img-top" />
