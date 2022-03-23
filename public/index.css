@@ -24,7 +24,7 @@ code {
   background-color: rgba(211, 211, 211, 0.363);
   border-radius: 5px;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
 }
@@ -55,11 +55,21 @@ code {
 }
 
 .home-card {
+  background-image: url("Howl-s-Moving-Castle-Wallpaper.jpg");
+  box-shadow: 0 0 5px #ccc;
   /* margin-top: 2em; */
   display: flex;
   flex-direction: row;
   height: 32em;
   align-items: center;
   border: 1px solid;
-    background-color: white;
+  background-color: white;
+}
+
+.nav-image {
+  width: 175px;
+  height: 150px;
+ background-size: cover;
+  margin-right: 35em;
+  background-image: url("ghibli-museum-studio-ghibli-anime-film-animation-totoro-ba05e9601c4877bb4c5227d44962bf53.png");
 }
