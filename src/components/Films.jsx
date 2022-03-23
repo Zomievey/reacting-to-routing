@@ -12,7 +12,7 @@ const Films = () => {
     }, []);
 
     return (
-        <div className="row ">
+        <div className="row ml-3 mr-3 mb-5">
             {films.map(film => (
                 <div className="col-6 mt-3" key={film.id}>
                     <div class="card">
@@ -21,7 +21,7 @@ const Films = () => {
                             <h5 class="card-title">{film.title}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{film.original_title}</h6>
                             <p class="card-text">{film.description}</p>
-                            <Link to={`/films/${film.id}`} class="card-link">See More</Link>
+                            <Link to={`/films/${film.id}`} class="card-link">Read More</Link>
                         </div>
                     </div>
                 </div>

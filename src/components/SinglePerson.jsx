@@ -24,6 +24,7 @@ const SinglePerson = () => {
             Eye Color: {person.eye_color}
           </h6>
           <p class="card-text">age: {person.age}</p>
+         <button onClick={() => window.history.back()} className="btn btn-primary btn-sm">Back</button>
         </div>
       </div>
     </div>

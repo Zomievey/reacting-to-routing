@@ -14,7 +14,7 @@ const SingleFilm = (props) => {
   return (
     <div className="single">
       <div className="col-10" key={film.id}>
-        <div class="card">
+        <div class="card mb-5">
           <div class="card-body">
             <img
               src={film.movie_banner}
@@ -27,6 +27,7 @@ const SingleFilm = (props) => {
             <p class="card-text">Director: {film.director}</p>
             <p class="card-text">Producer: {film.producer}</p>
             <p class="card-text">Released: {film.release_date}</p>
+            <button onClick={() => window.history.back()}className="btn btn-primary btn-sm">Back</button>
           </div>
         </div>
       </div>

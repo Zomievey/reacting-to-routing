@@ -12,7 +12,7 @@ const People = () => {
     }, []);
 
     return (
-        <div className="row">
+        <div className="row mr-3 ml-3 mb-5">
             {people.map(person => (
                 <div className="col-6 mt-3" key={person.id}>
                     <div class="card">
@@ -20,7 +20,7 @@ const People = () => {
                             <h5 class="card-title">{person.name}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">{person.gender}</h6>
                             <p class="card-text">age: {person.age}</p>
-                            <Link to={`/people/${person.id}`} class="card-link">See More</Link>
+                            <Link to={`/people/${person.id}`} class="card-link">Read More</Link>
                         </div>
                     </div>
                 </div>
