@@ -66,10 +66,39 @@ code {
   background-color: white;
 }
 
-.nav-image {
-  width: 175px;
-  height: 150px;
- background-size: cover;
-  margin-right: 35em;
+
+#nav-image {
+  width: 19em;
+  height: 15.5em;
+  background-size: cover;
+  
   background-image: url("ghibli-museum-studio-ghibli-anime-film-animation-totoro-ba05e9601c4877bb4c5227d44962bf53.png");
+}
+
+#logo-image {
+  height: 21em;
+  padding: 1em;
+}
+
+#home-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav{
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+#image-row {
+  padding: 0;
 }

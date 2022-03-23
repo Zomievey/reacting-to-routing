@@ -3,14 +3,17 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div class="text-center">
+      <div id="home-container" className="container">
+        <div className="row">
         <img
-          src="https://p.kindpng.com/picc/s/83-834491_official-studio-ghibli-logo-hd-png-download.png"
+          id="logo-image"
+          src="PngItem_834494.png"
           class="rounded"
-          alt="..."
-        />
+          alt="studio ghibli logo"
+          />
+          </div>
       </div>
-      <div className="container home-card">
+      <div className="container home-card text-center">
         <div class=" text-center card-body">
           <h2>Studio Ghibli Routing Lab</h2>
           <h5 className="mt-5">
@@ -19,9 +22,9 @@ const Home = () => {
             hooks, managing multiple array maps utilizing useState hooks, and
             Bootstrap for styling.
           </h5>
-          <h5 >
-            Click either button above to view the resources for Studio Ghibli and
-            ENJOY!
+          <h5>
+            Click either button above to view the resources for Studio Ghibli
+            and ENJOY!
           </h5>
         </div>
       </div>
