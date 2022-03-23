@@ -17,12 +17,12 @@ const Navbar = () => {
             </li>
             <li id="nav-item" className="nav-item mb-3">
               <Link class="nav-link" to={"/films"}>
-                View Films |
+                Films |
               </Link>
             </li>
             <li id="nav-item" className="nav-item mb-3">
               <Link class="nav-link" to={"/people"}>
-                View People |
+                Characters |
               </Link>
             </li>
           </ul>
